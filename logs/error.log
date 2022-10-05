@@ -1,0 +1,3 @@
+[Wed Oct 05 19:56:34.279833 2022] [proxy_fcgi:error] [pid 9431] [client 127.0.0.1:54438] AH01071: Got error 'PHP message: PHP Notice:  Undefined index: url in /home/maxim/www/test.loc/application/core/route.php on line 9'
+[Wed Oct 05 19:59:03.176458 2022] [proxy_fcgi:error] [pid 9743] [client 127.0.0.1:53314] AH01071: Got error 'PHP message: PHP Notice:  Undefined index: url in /home/maxim/www/test.loc/application/core/route.php on line 9'
+[Wed Oct 05 20:01:57.336251 2022] [proxy_fcgi:error] [pid 9743] [client 127.0.0.1:45514] AH01071: Got error 'PHP message: PHP Notice:  Undefined index: url in /home/maxim/www/test.loc/application/core/route.php on line 9', referer: http://test.loc/index.php?url=main
