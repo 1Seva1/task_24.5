@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>EDUCAMPUS | Home Page 1</title>
+        <title>EDUCAMPUS | Home Page </title>
 
         <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
         <link href='fonts/Lato-Medium.css' rel='stylesheet' type='text/css'>
@@ -79,9 +79,7 @@
                     <div class="key_to_success">
                         <div class="col-md-7">
                             <div class="key2seccess_txt">
-                                <h2>Education is the key to your success</h2>
-                                <p>Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you. Texas tea. A man is born he's a man of means you knew. </p>
-                                
+                                <?php include $content_view; ?>
                             </div>
                         </div>
                     </div>
@@ -97,13 +95,13 @@
                         <div class="footer_widgets">
                             <div class="col-md-3 col-sm-6">
                                 <div class="single_footer_widget">
-                                    <h2 class="widget_title">About us</h2>
+                                    <h2 class="widget_title">О нас</h2>
                                     <p>On my way to where the air is sweet. Can you tell me how to get how to get to Sesame Street! The first mate and his Skipper too will do their very best to make the others comfortable </p>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="single_footer_widget">
-                                    <h2 class="widget_title">contact info</h2>
+                                    <h2 class="widget_title">Контактная информация</h2>
                                     <ul class="footer_contact">
                                         <li>09 Design Street,Downtown, Sydney, Australia</li>
                                         <li>+01 123 456 78</li>
@@ -120,16 +118,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <p>© 2015 educampus. All rights reserved</p>
+                            <p>© All rights reserved</p>
                         </div>
                         <div class="col-sm-8">
                             <nav class="footer_menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="index.php?url=main">Главная</a></li>
+                                    <li><a href="index.php?url=services">Услуги</a></li>
+                                    <li><a href="index.php?url=portfolio">Портфолио</a></li>
+                                    <li><a href="index.php?url=contacts">Контакты</a></li>
                                 </ul>
                             </nav>
                         </div>
