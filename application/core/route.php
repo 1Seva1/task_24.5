@@ -5,8 +5,8 @@ class Route
 	{
 		// контроллер и действие по умолчанию
 		$controller_name = 'Main';
-             $action_name = 'index';
-	             $routes = $_GET['url'];
+        $action_name = 'index';
+	    $routes = $_GET['url'];
 		
 		// получаем имя контроллера
 		if ( !empty($routes) )
